@@ -1,0 +1,91 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pricelist_supplier
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200808\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-06 13:44+0000\n"
+"PO-Revision-Date: 2021-04-06 13:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "%s %% discount"
+msgstr "%s %% de descuento"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "%s %% discount and %s surcharge"
+msgstr "%s %% de descuento y %s de recargo"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "All Products"
+msgstr "Todos los productos"
+
+#. module: pricelist_supplier
+#: model:ir.model.fields,field_description:pricelist_supplier.field_product_pricelist_item__applied_on
+msgid "Apply On"
+msgstr "Aplicar Sobre"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "Category: %s"
+msgstr "Categoría: %s"
+
+#. module: pricelist_supplier
+#: model:ir.model.fields,help:pricelist_supplier.field_product_pricelist_item__applied_on
+msgid "Pricelist Item applicable on selected option"
+msgstr "Elemento de tarifa aplicable a la opción seleccionada"
+
+#. module: pricelist_supplier
+#: model:ir.model,name:pricelist_supplier.model_product_pricelist_item
+msgid "Pricelist Rule"
+msgstr "Regla de Tarifa"
+
+#. module: pricelist_supplier
+#: model:ir.model.fields.selection,name:pricelist_supplier.selection__product_pricelist_item__applied_on__4_supplier
+#: model_terms:ir.ui.view,arch_db:pricelist_supplier.pricelist_form_supplier_add
+msgid "Product Supplier"
+msgstr "Proveedor"
+
+#. module: pricelist_supplier
+#: model:ir.model,name:pricelist_supplier.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "Product: %s"
+msgstr "Producto: %s"
+
+#. module: pricelist_supplier
+#: model:ir.model.fields,field_description:pricelist_supplier.field_product_pricelist_item__supplier_id
+#: model:ir.model.fields,field_description:pricelist_supplier.field_product_product__supplier_id
+#: model:ir.model.fields,field_description:pricelist_supplier.field_product_template__supplier_id
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "Supplier: %s"
+msgstr "Proveedor: %s"
+
+#. module: pricelist_supplier
+#: code:addons/pricelist_supplier/models/product.py:0
+#, python-format
+msgid "Variant: %s"
+msgstr "Variante: %s"
